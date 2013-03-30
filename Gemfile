@@ -8,6 +8,8 @@ group :test do
   end
 end
 
+gem "bson", git: "git://github.com/mongodb/bson-ruby.git"
+
 gem "rake"
 gem "jruby-openssl", :platform => :jruby
 
